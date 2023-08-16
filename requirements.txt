@@ -1,0 +1,10 @@
+# requirements.txt
+
+# Core dependencies
+requests
+loguru
+
+# Playwright and its dependencies
+playwright
+asyncio
+pytz
