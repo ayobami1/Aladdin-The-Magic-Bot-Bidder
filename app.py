@@ -13,7 +13,7 @@ log.add("flask_app.log", level="INFO", rotation="1 MB", compression="zip", backt
 
 # Your send_message_developer function
 def send_message_developer(message):
-    bot_token = "6416467738:AAFXTFBy0XpxRbVo2SUNJ5UnEcf-FKbI134"
+    bot_token = "BOT TOKEN "
     parse_mode = "HTML"
     url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
     chat_id = "-934294168"
